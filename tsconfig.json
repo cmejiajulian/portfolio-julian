@@ -5,18 +5,15 @@
     "noEmit": true,
     "types": [
       "astro/client",
-      "react"
+      "react",
+      "dom"
     ],
     "moduleResolution": "node",
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "@components/*": [
-        "src/components/*"
-      ]
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
