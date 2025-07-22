@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, type ReactElement } from "react";
 
 // Íconos SVG para cada categoría
-const CategoryIcons: Record<string, JSX.Element> = {
+const CategoryIcons: Record<string, ReactElement> = {
   "Desarrollo Web Frontend": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
